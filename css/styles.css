@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+	background-color: #01EDB7;
+}
+
+h1 {
+	color: #FC4600;
+	font-size: 60px;
+	margin: 40px 0px 0px;
+}
+
+h3 {
+	color: #FC4600;
+	font-size: 40px;
+}
+
+#countdown-wrapper {
+	color: #fff;
+	font-size: 30px;
+}
+
+#countdown-wrapper > div {
+	padding: 10px;
+	border-radius: 3px;
+	background: #00806B;
+	display: inline-block;
+
+}
