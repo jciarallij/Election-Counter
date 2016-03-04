@@ -1,28 +1,39 @@
 body {
 	text-align: center;
-	background-color: #01EDB7;
-}
+	/*background-color: #01EDB7;
 
+*/
+	background: url("../img/ocean.jpg");
+}
+@font-face {
+    font-family: ace;
+    src: url("../fonts/animeace.ttf");
+}
 h1 {
-	color: #FC4600;
+	color: black;
 	font-size: 60px;
 	margin: 40px 0px 0px;
+	font-family: ace;
+	 text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-h3 {
-	color: #FC4600;
-	font-size: 40px;
+h2 {
+	color: black;
+	font-size: 30px;
+	margin: 20px;
+	font-family: ace;
 }
 
 #countdown-wrapper {
-	color: #fff;
+	color: black;
 	font-size: 30px;
+	font-family: ace;
 }
 
 #countdown-wrapper > div{
 	padding: 10px;
-	border-radius: 3px;
-	background: #00806B;
+	border-radius: 3%;
+	background: url("../img/woodtex.jpg");
 	display: inline-block;
 
 }
@@ -30,6 +41,11 @@ h3 {
 .time-wrapper > div{
 	padding: 15px;
 	border-radius: 3px;
-	background-color: #00806B;
+	/*background-color: #68e503;*/
+	background: url("../img/woodtex2.png");
 	display: inline-block;
+}
+
+#luffy {
+	margin-top: 3%;
 }

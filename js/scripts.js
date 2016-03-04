@@ -1,6 +1,6 @@
-function timeTillDoomsDay(){
+function onePieceTimeCounter(){
 
-	var endTime = new Date (2016,10,8,19,0,0,0);
+	var endTime = new Date (2016,2,7,13,0,0,0);
 	var now = new Date ();
 	var endTimeStamp = Date.parse(endTime);
 	var nowTimeStamp = Date.parse(now);
@@ -45,12 +45,23 @@ function initTimer() {
 	var seconds = document.getElementById('seconds');
 
 	// var weeks = timer.querySelector(' #weeks');
-	var timeObjectedReturned = timeTillDoomsDay();
-	console.log(timeObjectedReturned);
+	var timeObjectedReturned = onePieceTimeCounter();
+	
+
+	weeks.innerHTML = timeObjectedReturned.weeks;
+	days.innerHTML = timeObjectedReturned.days;
+	hours.innerHTML = timeObjectedReturned.hours;
+	minutes.innerHTML = timeObjectedReturned.minutes;
+	seconds.innerHTML = timeObjectedReturned.seconds;
 };
 
 function updateTimer() {
 
 };
 
-initTimer();
+setInterval( initTimer, 500);
+
+
+
+
+
