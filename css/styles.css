@@ -19,10 +19,17 @@ h3 {
 	font-size: 30px;
 }
 
-#countdown-wrapper > div {
+#countdown-wrapper > div{
 	padding: 10px;
 	border-radius: 3px;
 	background: #00806B;
 	display: inline-block;
 
+}
+
+.time-wrapper > div{
+	padding: 15px;
+	border-radius: 3px;
+	background-color: #00806B;
+	display: inline-block;
 }

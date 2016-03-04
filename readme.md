@@ -4,4 +4,4 @@ This counter does not use any jQuery plugins or dependencies.
 
 ##Demo Here
 
-.. insert link when it exists ..
+...insert link when it exists ..
