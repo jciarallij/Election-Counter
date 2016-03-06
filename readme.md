@@ -1,4 +1,4 @@
-#A Countdown to 2016 election day done in native JavaScript.
+#A Countdown to 2016 Shonen Jump done in native JavaScript.
 
 This counter does not use any jQuery plugins or dependencies.
 

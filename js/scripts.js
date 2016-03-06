@@ -1,4 +1,4 @@
-function onePieceTimeCounter(){
+function jumpCounter(){
 
 	var endTime = new Date (2016,2,7,13,0,0,0);
 	var now = new Date ();
@@ -45,7 +45,7 @@ function initTimer() {
 	var seconds = document.getElementById('seconds');
 
 	// var weeks = timer.querySelector(' #weeks');
-	var timeObjectedReturned = onePieceTimeCounter();
+	var timeObjectedReturned = jumpCounter();
 	
 
 	weeks.innerHTML = timeObjectedReturned.weeks;
