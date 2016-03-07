@@ -1,6 +1,8 @@
 function jumpCounter(){
 
+	
 	var endTime = new Date (2016,2,7,13,0,0,0);
+	var endTime = new Date();
 	var now = new Date ();
 	var endTimeStamp = Date.parse(endTime);
 	var nowTimeStamp = Date.parse(now);
@@ -13,14 +15,6 @@ function jumpCounter(){
 	var hours = Math.floor(timeStampInSeconds / (60 * 60) % 24);
 	var days = Math.floor(timeStampInSeconds / (60 * 60 * 24) % 7);
 	var weeks = Math.floor(timeStampInSeconds / (60 * 60 * 24 * 7));
-
-
-	// var seconds = Math.floor((timeDifference / 1000) % 60);
-	// var minutes = Math.floor((timeDifference / 1000 / 60) % 60);
-	// var hours = Math.floor((timeDifference / 1000 * 60 * 60) % 24);
-	// var days = Math.floor((timeDifference / 1000 * 60 * 60 * 24) % 7);
-	// var weeks = Math.floor((timeDifference / 1000 * 60 * 60 * 24 * 7);
-	// console.log(seconds);
 
 	var timeObject = {
 		weeks: weeks,
